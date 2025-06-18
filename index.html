@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armazenamento Local</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contatos</h1>
+        <form>
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="text" id="email" placeholder="E-mail" required>
+            <input type="text" id="telefone" placeholder="Telefone" required>
+            <br>
+            <br>
+            <input type="text" id="endereco" placeholder="Endereço" required>
+            <input type="text" id="cpf" placeholder="CPF" required>
+            <input type="text" id="rg" placeholder="RG" required>
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+</header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Endereco</th>
+                    <th>Cpf</th>
+                    <th>Rg</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="contact-list">
+                
+            </tbody>
+        </table>
+    </main>
 
+    <footer>
+        <h2>by Helio</h2>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
